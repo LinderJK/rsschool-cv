@@ -1,4 +1,3 @@
-# [rsschool-cv](адрес "Описание")
 
 ## Slepchenkov Ilya
 
@@ -11,6 +10,7 @@ I am 28 years old. I am currently working as a technical support engineer in the
 - **Github** - https://github.com/LinderJK
 - **Telegram** - LinderJk
 - **Discord** - ilya Slepchenkov (@LinderJK)
+- **Location** - Zelenograd, Russia
 
 ------------------
 ### Skills
