@@ -40,4 +40,20 @@ I am 28 years old. I am currently working as a technical support engineer in the
         xhr.send(data);
     }
 ```
+------------------
 
+### Education
+- ***National Research University of Electronic Technology***
+
+  Graduated from the Faculty of Microdevices and Technical Cybernetics (MPTK) in the direction of training development and operation of radio equipment.
+
+
+- ***RsSchool «JavaScript/Front-end. Stage 0»***
+
+
+------------------
+
+### Languages
+
+- English - B1
+- Russian - Native
