@@ -1,0 +1,242 @@
+* {
+  box-sizing: border-box;
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  color: var(--secondary-color);
+
+}
+
+ol,
+ul,
+li {
+  list-style: none;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+a:hover {
+  color: var(--hover);
+  transition: all 200ms ease-in-out;
+}
+
+header {
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid var(--secondary-color)
+}
+
+.container {
+  width: 100%;
+  background-color: var(--primary-color);
+}
+
+.navbar {
+  width: 100%;
+}
+
+.navbar-list {
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.navbar-item {
+  font-size: 1.5rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+section {
+  width: 70%;
+  padding: 15px;
+}
+
+@media (max-width: 1280px) {
+  section {
+    width: 100%;
+  }
+}
+
+/*SECTION ABOUT*/
+.section-about {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.about-lang {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.avatar {
+  border: 1px solid var(--secondary-color);
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 10px;
+
+}
+
+.avatar img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  padding: 0 20px;
+}
+
+.text--mute {
+  opacity: 0.5;
+}
+
+.contacts {
+  padding: 0;
+
+}
+
+.contact-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+/*SECTION Skills*/
+.skill-svg {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  background-color: var(--secondary-color);
+  padding: 5px;
+  border-radius: 10px;
+
+}
+
+.skills-item {
+  text-align: center;
+  transition: transform 500ms ease-in-out;
+}
+
+.skills-item:hover {
+  transform: scale(1.2);
+}
+
+.skills-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.skill-text {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/*SECTION Projects*/
+.card-deck {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: space-between;
+
+}
+
+.card {
+  width: 300px;
+  border-radius: 10px;
+  border: 2px solid var(--secondary-color);
+  overflow: hidden;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  object-fit: cover;
+}
+
+.card-title {
+  margin: 5px 0;
+  text-align: center;
+}
+
+.card-body {
+  padding: 10px;
+}
+
+/*SECTION Education*/
+.education {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.education img {
+  width: 100%;
+}
+
+.education-description {
+  display: flex;
+  flex-direction: column;
+}
+
+.education img {
+  border-radius: 10px;
+}
+
+
+/*FOOTER*/
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 50px;
+  border-top: 1px solid var(--secondary-color);
+}
+
+.footer img {
+  height: 50px
+}
+
+.rsschool-logo,
+.github-logo {
+  border-radius: 10px;
+  text-align: center;
+  width: 200px;
+  background-color: var(--secondary-color);
+}
+
+:root {
+  --primary-color: #151515;
+  --secondary-color: white;
+  --hover: #a6e4ed;
+}
