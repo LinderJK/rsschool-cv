@@ -45,12 +45,21 @@ header {
 
 main {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
+
 section {
-  max-width: 1280px;
+  width: 70%;
   padding: 15px;
+}
+
+@media (max-width: 1280px) {
+  section {
+    width: 100%;
+  }
 }
 
 /*SECTION ABOUT*/
@@ -58,19 +67,22 @@ section {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .avatar {
-  margin: 10px;
   border: 1px solid var(--secondary-color);
   width: 300px;
+  height: 200px;
   overflow: hidden;
   border-radius: 10px;
+
 }
 
 .avatar img {
   width: 100%;
+  object-fit: cover;
+
 }
 
 .about {
@@ -82,6 +94,62 @@ section {
 
 .text--mute {
   opacity: 0.5;
+}
+
+/*SECTION Skills*/
+.skill-svg {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  background-color: var(--secondary-color);
+  padding: 5px;
+  border-radius: 10px;
+
+}
+
+.skills-item {
+  text-align: center;
+}
+
+.skills-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.skill-text {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/*SECTION Projects*/
+.card-deck {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.card {
+  width: 300px;
+  border-radius: 10px;
+  border: 2px solid var(--secondary-color);
+  overflow: hidden;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+
+.card-title {
+  margin: 5px 0;
+  text-align: center;
+}
+
+.card-body {
+  padding: 10px;
 }
 
 
