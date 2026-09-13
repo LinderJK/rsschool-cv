@@ -57,3 +57,58 @@ body {
     text-decoration: underline;
 }
 
+section {
+    margin-bottom: 2rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid #d5e2ea;
+}
+
+h2 {
+    margin: 0 0 0.75rem;
+    font-size: 1.3rem;
+    color: #0a3d5c;
+}
+
+h3 {
+    margin: 1rem 0 0.35rem;
+    font-size: 1.05rem;
+}
+
+ul {
+    margin: 0;
+    padding-left: 1.25rem;
+}
+
+
+a {
+    color: #0b6e99;
+}
+
+.projects {
+    list-style: none;
+    padding-left: 0;
+}
+
+.projects li {
+    margin-bottom: 1.25rem;
+}
+
+.projects h3 {
+    margin-top: 0;
+}
+
+.projects p {
+    margin: 0.15rem 0;
+    color: #3d5a6c;
+}
+
+pre {
+    background: #0a3d5c;
+    color: #e8f4fa;
+    padding: 1rem 1.25rem;
+    overflow-x: auto;
+    border-radius: 10px;
+    font-size: 0.9rem;
+    line-height: 1.45;
+}
+
