@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slepchenkov Ilya — CV</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <h1>Slepchenkov Ilya</h1>
+            <p class="subtitle">FullStack Developer</p>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contacts">Contacts</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#code">Code</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#languages">Languages</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <p>
+                My name is Ilya, I’m 30 years old, and I’m a FullStack Developer with 2 years of commercial experience and an engineering background.
+            </p>
+            <p>
+                I specialize in building web applications using React, Next.js and Node.js. I write clean, testable JavaScript/TypeScript code and actively participate in task planning, code reviews, and technical discussions. I'm highly motivated to grow professionally and currently exploring Vue and its ecosystem.
+            </p>
+        </section>
+
+        <section id="contacts">
+            <h2>Contacts</h2>
+            <ul>
+                <li><strong>Github</strong> - <a href="https://github.com/LinderJK" target="_blank" rel="noopener noreferrer">LinderJK</a></li>
+                <li><strong>Telegram</strong> - LinderJk</li>
+                <li><strong>Discord</strong> - ilya Slepchenkov (@LinderJK)</li>
+                <li><strong>Location</strong> - Zelenograd, Russia</li>
+            </ul>
+        </section>
+
+        <section id="skills">
+            <h2>Core Skills</h2>
+            <ul>
+                <li><strong>Languages & Frameworks:</strong> JavaScript (ES6+), TypeScript, HTML, CSS/SCSS, React, Next.js, Node.js, Express, NestJS</li>
+                <li><strong>State & Data:</strong> Redux Toolkit, RTK Query, REST, GraphQL, WebSocket</li>
+                <li><strong>Styling & UI:</strong> MUI, Bootstrap, CSS Modules, BEM, Framer Motion</li>
+                <li><strong>Testing:</strong> Vitest, React Testing Library, Jest</li>
+                <li><strong>Tooling:</strong> Webpack, Vite, ESLint, Prettier, Docker</li>
+                <li><strong>Database:</strong> MongoDB (Mongoose), PostgreSQL (Prisma)</li>
+                <li><strong>Version Control & Collaboration:</strong> Git, GitHub, GitLab</li>
+                <li><strong>Design Tools:</strong> Figma, Adobe Illustrator</li>
+            </ul>
+        </section>
+
+        <section id="projects">
+            <h2>Projects</h2>
+            <ul class="projects">
+                <li>
+                    <h3>DMS System</h3>
+                    <p>Stack: Next.js, Tanstack Query, Zustand, MUI</p>
+                    <p>Backend: Nestjs, Mongodb, BullMq</p>
+                </li>
+                <li>
+                    <h3>Electrical Circuit Builder & Simulator</h3>
+                    <p>Stack: Next.js, Canvas API, Two.js, WebSocket, Chart.js</p>
+                </li>
+                <li>
+                    <h3>Interactive Microcircuit Crystal Builder on Wafer</h3>
+                    <p>Stack: React, Canvas, Zustand, SQLite</p>
+                </li>
+                <li>
+                    <h3>Project Management System (Linux Desktop)</h3>
+                    <p>Stack: Electron, Tanstack Query, MUI</p>
+                </li>
+                <li>
+                    <h3><a href="https://github.com/LinderJK/nestjs-library-service" target="_blank" rel="noopener noreferrer">Nest Library Service</a></h3>
+                </li>
+                <li>
+                    <h3><a href="https://linderjk.github.io/image-gallery/" target="_blank" rel="noopener noreferrer">Image gallery</a></h3>
+                </li>
+                <li>
+                    <h3><a href="https://linderjk.github.io/coffee-house/" target="_blank" rel="noopener noreferrer">Coffee house</a></h3>
+                </li>
+            </ul>
+        </section>
+
+        <section id="code">
+            <h2>Code Example</h2>
+            <pre><code>useEffect(() =&gt; {
+  const fetchEvents = async () =&gt; {
+    try {
+      const data = await getAllEvents();
+      if (data) {
+        setEvents(data.active);
+      }
+    } catch (error) {
+      console.error(error);
+    }
+  };
+
+  fetchEvents();
+}, []);</code></pre>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <p><strong>National Research University of Electronic Technology</strong></p>
+            <p>
+                Graduated from the Faculty of Microdevices and Technical Cybernetics (MPTK) in the direction of training development and operation of radio equipment.
+            </p>
+
+            <h3>Additional Courses</h3>
+            <p>RS School courses:</p>
+            <ul>
+                <li>JS/FE Pre-School 2023Q2</li>
+                <li>JavaScript/Front-end 2023Q4</li>
+                <li>React 2024 Q3</li>
+                <li>NodeJS 2024 Q3</li>
+            </ul>
+        </section>
+
+        <section id="languages">
+            <h2>Languages</h2>
+            <ul>
+                <li>English - B1</li>
+                <li>Russian - Native</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__inner">
+            <a class="footer__github" href="https://github.com/LinderJK" target="_blank" rel="noopener noreferrer" aria-label="GitHub автора">GitHub</a>
+            <p class="footer__student">© 2026 Slepchenkov Ilya</p>
+            <a class="footer__course" href="https://rs.school/courses/javascript" target="_blank" rel="noopener noreferrer" aria-label="Курс RS School">
+                <img src="./assets/rs-school-logo.svg" alt="RS School" width="80" height="30">
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
