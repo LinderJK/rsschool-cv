@@ -6,9 +6,9 @@
 
 ### 👋 About Me
 
-My name is Ilya, I’m 30 years old, and I’m a Frontend Developer with nearly 2 years of commercial experience and an engineering background.
+My name is Ilya, I’m 30 years old, and I’m a FullStack Developer with 2 years of commercial experience and an engineering background.
 
-I specialize in building web applications using React, Next.js, and Node.js. I write clean, testable JavaScript/TypeScript code and actively participate in task planning, code reviews, and technical discussions. I'm highly motivated to grow professionally and currently exploring Vue and its ecosystem.
+I specialize in building web applications using React, Next.js and Node.js. I write clean, testable JavaScript/TypeScript code and actively participate in task planning, code reviews, and technical discussions. I'm highly motivated to grow professionally and currently exploring Vue and its ecosystem.
 
 
 
@@ -68,10 +68,10 @@ I specialize in building web applications using React, Next.js, and Node.js. I w
 
 
 
-📌 CRM System
+📌 DMS System
 
-Stack: Next.js, React, TypeScript, RTK, MUI, WebSocket, Node.js, MongoDB
-
+Stack: Next.js, Tanstack Query, Zustand, MUI
+Backend: Nestjs, Mongodb, BullMq
 
 
 📌 Electrical Circuit Builder & Simulator
@@ -79,20 +79,25 @@ Stack: Next.js, React, TypeScript, RTK, MUI, WebSocket, Node.js, MongoDB
 Stack: Next.js, Canvas API, Two.js, WebSocket, Chart.js
 
 
+📌 Interactive Microcircuit Crystal Builder on Wafer
 
-📌 Product Catalog Web App (for Exhibition Booth)
-
-
-
-📌 Nest Library Service [link](https://link-url-here.org)
+Stack: React, Canvas, Zustand, SQLite
 
 
+📌 Project Management System (Linux Desktop)
 
-📌 Image gallery [link](https://linderjk.github.io/image-gallery/)
+Stack: Electron, Tanstack Query, MUI
+
+
+📌 [Nest Library Service](https://github.com/LinderJK/nestjs-library-service)
 
 
 
-📌 Coffee house [link](https://linderjk.github.io/coffee-house/)
+📌 [Image gallery](https://linderjk.github.io/image-gallery/)
+
+
+
+📌 [Coffee house](https://linderjk.github.io/coffee-house/)
 
 
 
