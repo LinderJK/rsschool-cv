@@ -18,3 +18,42 @@ body {
     margin: 0 auto;
 }
 
+.header {
+    padding: 2.5rem 0 1.5rem;
+    border-bottom: 3px solid #0b6e99;
+    margin-bottom: 1rem;
+    background: linear-gradient(135deg, #e8f4fa 0%, #f5f8fb 70%);
+}
+
+.header h1 {
+    margin: 0 0 0.25rem;
+    font-size: 2.1rem;
+    font-weight: 700;
+    color: #0a3d5c;
+}
+
+.subtitle {
+    margin: 0 0 1.25rem;
+    color: #3d5a6c;
+}
+
+.nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem 1.25rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav a {
+    color: #0b6e99;
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+
