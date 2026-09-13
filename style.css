@@ -112,3 +112,39 @@ pre {
     line-height: 1.45;
 }
 
+.footer {
+    padding: 1.5rem 0 2rem;
+    color: #5a7383;
+    font-size: 0.9rem;
+    border-top: 1px solid #d5e2ea;
+}
+
+.footer__inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.footer__github {
+    color: #0b6e99;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.footer__github:hover {
+    text-decoration: underline;
+}
+
+.footer__student {
+    color: #5a7383;
+}
+
+.footer__course img {
+    display: block;
+    height: 30px;
+    width: auto;
+    background: #d5e2ea;
+    border-radius: 4px;
+}
